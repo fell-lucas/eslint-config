@@ -55,12 +55,7 @@ module.exports = {
     'react/jsx-no-leaked-render': ['off'],
     'react/jsx-max-depth': ['warn', { max: 4 }],
     'react/forbid-component-props': ['error', { forbid: ['className'] }],
-    'react/jsx-props-no-spreading': [
-      'error',
-      {
-        custom: 'ignore',
-      },
-    ],
+    'react/jsx-props-no-spreading': 'off',
   },
   settings: {
     'import/parsers': {
