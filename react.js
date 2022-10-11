@@ -4,9 +4,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:@typescript-eslint/strict',
     'plugin:prettier/recommended',
-    'plugin:react/all',
+    'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/strict',
+    'plugin:jsx-a11y/recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
   ],
@@ -16,7 +16,7 @@ module.exports = {
     project: './tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'prettier', 'react', 'jsx-a11y', 'import', 'unused-imports'],
+  plugins: ['@typescript-eslint', 'prettier', 'react', 'jsx-a11y', 'import'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -32,6 +32,7 @@ module.exports = {
         tabWidth: 2,
       },
     ],
+    '@typescript-eslint/no-misused-promises': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'warn',
     'unused-imports/no-unused-vars': [
