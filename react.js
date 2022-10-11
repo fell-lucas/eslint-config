@@ -33,12 +33,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-misused-promises': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
-    'unused-imports/no-unused-imports': 'warn',
-    'unused-imports/no-unused-vars': [
-      'warn',
-      { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
-    ],
     'react/jsx-no-bind': [
       'warn',
       {
